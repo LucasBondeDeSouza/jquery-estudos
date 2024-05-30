@@ -1,0 +1,3 @@
+# O que é jQuery?
+
+jQuery é uma biblioteca de JavaScript rápida, pequena e rica em recursos. Foi projetada para simplificar o uso do JavaScript na web, facilitando a manipulação de elementos HTML, gerenciamento de eventos, animações e a realização de chamadas AJAX. Com jQuery, os desenvolvedores podem escrever menos código para realizar tarefas comuns, melhorando a produtividade e a eficiência no desenvolvimento web.
