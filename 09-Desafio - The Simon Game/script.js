@@ -13,14 +13,23 @@ let level = 0
 // Booleano que indica se o jogo foi iniciado ou não
 let started = false
 
+// Função que Inicia o jogo, ao clicar no 'start'
+$('span').click(() => {
+  startGame()
+})
+
 // Função que Inicia o jogo, ao clicar qualquer tecla
 $(document).keypress(() => {
+  startGame()
+})
+
+const startGame = () => {
   if (!started) {
     $('#level-title').text(`Level ${level}`)
     nextSequence()
     started = true
   }
-})
+}
 
 // Adiciona o botão clicado pelo usuário no array
 $('.btn').click(e => {
